@@ -1,4 +1,4 @@
-# WeGoWayBack
+# time_machine
 Way back machine data visualizer.
 
 This code and following scripts assume the following:
