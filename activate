@@ -1,0 +1,3 @@
+#!/bin/sh
+
+source time_machine_venv/bin/activate

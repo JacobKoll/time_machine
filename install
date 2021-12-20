@@ -1,0 +1,14 @@
+#!/bin/sh
+
+filepath="$(pwd)"
+
+function activate () {
+	cd "$filepath"
+	pwd
+
+	python3 -m venv time_machine_venv
+	source time_machine_venv/bin/activate
+	python3 -m pip install --upgrade pip
+	python3 -m pip install -r requirements.txt
+}
+activate
